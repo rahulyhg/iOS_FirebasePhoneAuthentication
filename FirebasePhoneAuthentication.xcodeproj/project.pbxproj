@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41E2201F1F52AB9F007D919F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E2201E1F52AB9F007D919F /* AppDelegate.swift */; };
+		41E220211F52AB9F007D919F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E220201F52AB9F007D919F /* ViewController.swift */; };
+		41E220241F52AB9F007D919F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E220221F52AB9F007D919F /* Main.storyboard */; };
+		41E220261F52AB9F007D919F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E220251F52AB9F007D919F /* Assets.xcassets */; };
+		41E220291F52AB9F007D919F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E220271F52AB9F007D919F /* LaunchScreen.storyboard */; };
+		41E220341F52ABA0007D919F /* FirebasePhoneAuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E220331F52ABA0007D919F /* FirebasePhoneAuthenticationTests.swift */; };
+		41E2203F1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E2203E1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41E220301F52ABA0007D919F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E220131F52AB9F007D919F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E2201A1F52AB9F007D919F;
+			remoteInfo = FirebasePhoneAuthentication;
+		};
+		41E2203B1F52ABA0007D919F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41E220131F52AB9F007D919F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41E2201A1F52AB9F007D919F;
+			remoteInfo = FirebasePhoneAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41E2201B1F52AB9F007D919F /* FirebasePhoneAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePhoneAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E2201E1F52AB9F007D919F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41E220201F52AB9F007D919F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41E220231F52AB9F007D919F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41E220251F52AB9F007D919F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E220281F52AB9F007D919F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E2202A1F52AB9F007D919F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E2202F1F52ABA0007D919F /* FirebasePhoneAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePhoneAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E220331F52ABA0007D919F /* FirebasePhoneAuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhoneAuthenticationTests.swift; sourceTree = "<group>"; };
+		41E220351F52ABA0007D919F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E2203A1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePhoneAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E2203E1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhoneAuthenticationUITests.swift; sourceTree = "<group>"; };
+		41E220401F52ABA0007D919F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E220181F52AB9F007D919F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E2202C1F52ABA0007D919F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E220371F52ABA0007D919F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E220121F52AB9F007D919F = {
+			isa = PBXGroup;
+			children = (
+				41E2201D1F52AB9F007D919F /* FirebasePhoneAuthentication */,
+				41E220321F52ABA0007D919F /* FirebasePhoneAuthenticationTests */,
+				41E2203D1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests */,
+				41E2201C1F52AB9F007D919F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E2201C1F52AB9F007D919F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E2201B1F52AB9F007D919F /* FirebasePhoneAuthentication.app */,
+				41E2202F1F52ABA0007D919F /* FirebasePhoneAuthenticationTests.xctest */,
+				41E2203A1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E2201D1F52AB9F007D919F /* FirebasePhoneAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				41E2201E1F52AB9F007D919F /* AppDelegate.swift */,
+				41E220201F52AB9F007D919F /* ViewController.swift */,
+				41E220221F52AB9F007D919F /* Main.storyboard */,
+				41E220251F52AB9F007D919F /* Assets.xcassets */,
+				41E220271F52AB9F007D919F /* LaunchScreen.storyboard */,
+				41E2202A1F52AB9F007D919F /* Info.plist */,
+			);
+			path = FirebasePhoneAuthentication;
+			sourceTree = "<group>";
+		};
+		41E220321F52ABA0007D919F /* FirebasePhoneAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				41E220331F52ABA0007D919F /* FirebasePhoneAuthenticationTests.swift */,
+				41E220351F52ABA0007D919F /* Info.plist */,
+			);
+			path = FirebasePhoneAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		41E2203D1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41E2203E1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.swift */,
+				41E220401F52ABA0007D919F /* Info.plist */,
+			);
+			path = FirebasePhoneAuthenticationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E2201A1F52AB9F007D919F /* FirebasePhoneAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E220431F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthentication" */;
+			buildPhases = (
+				41E220171F52AB9F007D919F /* Sources */,
+				41E220181F52AB9F007D919F /* Frameworks */,
+				41E220191F52AB9F007D919F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebasePhoneAuthentication;
+			productName = FirebasePhoneAuthentication;
+			productReference = 41E2201B1F52AB9F007D919F /* FirebasePhoneAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41E2202E1F52ABA0007D919F /* FirebasePhoneAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E220461F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthenticationTests" */;
+			buildPhases = (
+				41E2202B1F52ABA0007D919F /* Sources */,
+				41E2202C1F52ABA0007D919F /* Frameworks */,
+				41E2202D1F52ABA0007D919F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E220311F52ABA0007D919F /* PBXTargetDependency */,
+			);
+			name = FirebasePhoneAuthenticationTests;
+			productName = FirebasePhoneAuthenticationTests;
+			productReference = 41E2202F1F52ABA0007D919F /* FirebasePhoneAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41E220391F52ABA0007D919F /* FirebasePhoneAuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E220491F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthenticationUITests" */;
+			buildPhases = (
+				41E220361F52ABA0007D919F /* Sources */,
+				41E220371F52ABA0007D919F /* Frameworks */,
+				41E220381F52ABA0007D919F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E2203C1F52ABA0007D919F /* PBXTargetDependency */,
+			);
+			name = FirebasePhoneAuthenticationUITests;
+			productName = FirebasePhoneAuthenticationUITests;
+			productReference = 41E2203A1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E220131F52AB9F007D919F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AliMac;
+				TargetAttributes = {
+					41E2201A1F52AB9F007D919F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					41E2202E1F52ABA0007D919F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41E2201A1F52AB9F007D919F;
+					};
+					41E220391F52ABA0007D919F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41E2201A1F52AB9F007D919F;
+					};
+				};
+			};
+			buildConfigurationList = 41E220161F52AB9F007D919F /* Build configuration list for PBXProject "FirebasePhoneAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E220121F52AB9F007D919F;
+			productRefGroup = 41E2201C1F52AB9F007D919F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E2201A1F52AB9F007D919F /* FirebasePhoneAuthentication */,
+				41E2202E1F52ABA0007D919F /* FirebasePhoneAuthenticationTests */,
+				41E220391F52ABA0007D919F /* FirebasePhoneAuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E220191F52AB9F007D919F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E220291F52AB9F007D919F /* LaunchScreen.storyboard in Resources */,
+				41E220261F52AB9F007D919F /* Assets.xcassets in Resources */,
+				41E220241F52AB9F007D919F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E2202D1F52ABA0007D919F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E220381F52ABA0007D919F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E220171F52AB9F007D919F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E220211F52AB9F007D919F /* ViewController.swift in Sources */,
+				41E2201F1F52AB9F007D919F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E2202B1F52ABA0007D919F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E220341F52ABA0007D919F /* FirebasePhoneAuthenticationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E220361F52ABA0007D919F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E2203F1F52ABA0007D919F /* FirebasePhoneAuthenticationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41E220311F52ABA0007D919F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E2201A1F52AB9F007D919F /* FirebasePhoneAuthentication */;
+			targetProxy = 41E220301F52ABA0007D919F /* PBXContainerItemProxy */;
+		};
+		41E2203C1F52ABA0007D919F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41E2201A1F52AB9F007D919F /* FirebasePhoneAuthentication */;
+			targetProxy = 41E2203B1F52ABA0007D919F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41E220221F52AB9F007D919F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E220231F52AB9F007D919F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41E220271F52AB9F007D919F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E220281F52AB9F007D919F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E220411F52ABA0007D919F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41E220421F52ABA0007D919F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E220441F52ABA0007D919F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebasePhoneAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41E220451F52ABA0007D919F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FirebasePhoneAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		41E220471F52ABA0007D919F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebasePhoneAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePhoneAuthentication.app/FirebasePhoneAuthentication";
+			};
+			name = Debug;
+		};
+		41E220481F52ABA0007D919F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebasePhoneAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePhoneAuthentication.app/FirebasePhoneAuthentication";
+			};
+			name = Release;
+		};
+		41E2204A1F52ABA0007D919F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebasePhoneAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebasePhoneAuthentication;
+			};
+			name = Debug;
+		};
+		41E2204B1F52ABA0007D919F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FirebasePhoneAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.FirebasePhoneAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FirebasePhoneAuthentication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E220161F52AB9F007D919F /* Build configuration list for PBXProject "FirebasePhoneAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E220411F52ABA0007D919F /* Debug */,
+				41E220421F52ABA0007D919F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E220431F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E220441F52ABA0007D919F /* Debug */,
+				41E220451F52ABA0007D919F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41E220461F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E220471F52ABA0007D919F /* Debug */,
+				41E220481F52ABA0007D919F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41E220491F52ABA0007D919F /* Build configuration list for PBXNativeTarget "FirebasePhoneAuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E2204A1F52ABA0007D919F /* Debug */,
+				41E2204B1F52ABA0007D919F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E220131F52AB9F007D919F /* Project object */;
+}
